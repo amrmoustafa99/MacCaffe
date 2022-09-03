@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4A84F"
+    tools:context=".SandwichesActivity"
+    android:orientation="vertical"
+
+    >
+
+
+        <TextView
+            android:id="@+id/texttotal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Total Prize: "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="15"
+            android:shadowColor="#838181"
+            />
+
+    <Button
+        android:onClick="ordernow"
+        android:id="@+id/ordernow"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="order now"
+        android:textColor="#FDFDFD"
+        android:backgroundTint="@color/black"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        tools:listitem="@layout/item_sandwich"
+
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

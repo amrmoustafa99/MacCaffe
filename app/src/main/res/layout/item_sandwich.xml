@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1B808080"
+    android:id="@+id/layout_id"
+
+
+    >
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:elevation="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            >
+
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="70dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_baseline_add_24"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/name_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="coffee"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="7dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="7dp"
+                    >
+
+                    <Button
+                        android:id="@+id/button_minnus"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="-"
+                        android:layout_marginRight="22dp"
+                        android:layout_width="43dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="#000"
+                        android:textColor="#F6F6F6"
+                        />
+
+                    <TextView
+                        android:id="@+id/quantity"
+                        android:layout_width="40dp"
+                        android:layout_height="38dp"
+
+                        android:text="0"
+                        android:textSize="18sp" />
+                    <Button
+                        android:id="@+id/button_plus"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="+"
+                        android:layout_width="43dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="#000"
+                        android:textColor="#F6F6F6"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:layout_marginStart="7dp"
+                />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

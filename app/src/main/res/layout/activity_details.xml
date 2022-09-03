@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4A84F"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity"
+    >
+
+    <ImageView
+        android:id="@+id/image_Details"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/_7sdp"
+        />
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="#000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="15"
+        android:shadowColor="#838181"
+        />
+    <TextView
+        android:id="@+id/text_prize"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="#000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="15"
+        android:shadowColor="#838181"
+
+        />
+
+</LinearLayout>

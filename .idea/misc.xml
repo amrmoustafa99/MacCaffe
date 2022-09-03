@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/MacCoffe/app/src/main/res/layout/activity_details.xml" value="0.17300724637681159" />
+        <entry key="..\:/Android Studio/MacCoffe/app/src/main/res/layout/activity_main.xml" value="0.17300724637681159" />
+        <entry key="..\:/Android Studio/MacCoffe/app/src/main/res/layout/activity_sandwich.xml" value="0.17300724637681159" />
+        <entry key="..\:/Android Studio/MacCoffe/app/src/main/res/layout/fragment_custom_dailog.xml" value="0.17300724637681159" />
+        <entry key="..\:/Android Studio/MacCoffe/app/src/main/res/layout/item_sandwich.xml" value="0.17300724637681159" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/activity_details_sandwich.xml" value="0.25416666666666665" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/activity_mac_coffe.xml" value="0.25416666666666665" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/activity_sandwich.xml" value="0.25416666666666665" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/fragment_custom_dailog.xml" value="0.25416666666666665" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/item_coffe.xml" value="0.25416666666666665" />
+        <entry key="..\:/MacCoffe/app/src/main/res/layout/item_sandwich.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
